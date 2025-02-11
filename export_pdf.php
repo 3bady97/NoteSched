@@ -78,7 +78,7 @@ $html = '
     </style>
 </head>
 <body>
-    <h1>ملاحظات كورس ' . htmlspecialchars($course_name, ENT_QUOTES, 'UTF-8') . '</h1>';
+    <h1>ملاحظات  ' . htmlspecialchars($course_name, ENT_QUOTES, 'UTF-8') . '</h1>';
 
 foreach ($notes as $note) {
     $timestamp = strtotime($note['created_at']);
